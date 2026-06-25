@@ -85,7 +85,7 @@ export const audioData = {
   ],
   episodeMeta: {
     duration: "2:43",
-    date: "Juni 2026",
+    date: "Februari 2026",
     category: "Kesehatan Mental",
   },
 };
