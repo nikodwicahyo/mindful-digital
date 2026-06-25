@@ -115,10 +115,10 @@ export const quizQuestions = [
     id: 3,
     question: "Pernah merasa 'brain fog' setelah scroll berjam-jam?",
     options: [
-      { text: "Sering — otak terasa 'nggak karuan'", score: 0},
+      { text: "Sering — otak terasa 'nggak karuan'", score: 0 },
       { text: "Kadang — apalagi abis nonton FYP", score: 1 },
       { text: "Jarang — masih bisa fokus", score: 2 },
-      { text: "Tidak pernah — screen time-ku sehat", score: 3},
+      { text: "Tidak pernah — screen time-ku sehat", score: 3 },
     ],
   },
   {
@@ -126,7 +126,7 @@ export const quizQuestions = [
     question: "Seberapa sering screen time mengganggu tidurmu?",
     options: [
       { text: "Sering — tidur larut karena 'bentar lagi' scroll", score: 0 },
-      { text: "Kadang — ponsel di samping tempat tidur", score: 1},
+      { text: "Kadang — ponsel di samping tempat tidur", score: 1 },
       { text: "Jarang — matikan ponsel 1 jam sebelum tidur", score: 2 },
       { text: "Tidak pernah — rutinitas tidurku sehat", score: 3 },
     ],
@@ -192,7 +192,7 @@ export const actionContent = {
     { text: "Menjadi contoh bijak digital bagi teman dan keluarga" },
     { text: "Membaca satu buku per bulan sebagai pengganti scrolling" },
   ],
-  shareText: "Ayo bijak digital! Saya sudah berkomitmen untuk %commitment%. Yuk ikutan di mindfuldigital.vercel.app #BijakDigital #BrainRot #DigitalDetox #KesehatanMental",
+  shareText: "Ayo bijak digital! Saya sudah berkomitmen untuk %commitment%. Yuk ikutan di mindful-digital.vercel.app #BijakDigital #BrainRot #DigitalDetox #KesehatanMental",
 };
 
 export const footerContent = {

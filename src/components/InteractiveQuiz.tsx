@@ -162,11 +162,11 @@ export default function InteractiveQuiz() {
 
   const handleShare = () => {
     const result = getResult();
-    const text = `Ikutan quiz MindfulDigital — Skorku: ${score}/${quizQuestions.length * 3} (${result.title}). Cek kebiasaan digitalmu di mindfuldigital.vercel.app #BijakDigital #BrainRot`;
+    const text = `Ikutan quiz MindfulDigital — Skorku: ${score}/${quizQuestions.length * 3} (${result.title}). Cek kebiasaan digitalmu di mindful-digital.vercel.app #BijakDigital #BrainRot`;
     if (navigator.share) {
-      navigator.share({ title: "MindfulDigital Quiz", text }).catch(() => {});
+      navigator.share({ title: "MindfulDigital Quiz", text }).catch(() => { });
     } else {
-      navigator.clipboard.writeText(text).catch(() => {});
+      navigator.clipboard.writeText(text).catch(() => { });
     }
   };
 
