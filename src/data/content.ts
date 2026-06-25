@@ -73,14 +73,14 @@ export const videoData = {
 export const audioData = {
   title: "BRAIN ROT! Scrolling Berjam-jam Bikin Otak Lemot?",
   description:
-    "Liputan6 mengupas fenomena brain rot — dari tanda-tanda 'otak kosong' setelah scroll TikTok sampai tips digital detox biar fokus balik lagi. Simak selengkapnya!",
+    "Liputan6 mengupas fenomena brain rot - dari tanda-tanda 'otak kosong' setelah scroll TikTok sampai tips digital detox biar fokus balik lagi. Simak selengkapnya!",
   youtubeId: "FVybr1ggJY4",
   source: "Liputan6",
   sourceUrl: "https://www.youtube.com/watch?v=FVybr1ggJY4",
   highlights: [
-    "Indonesia juara dunia screen time — 6 jam sehari!",
+    "Indonesia juara dunia screen time - 6 jam sehari!",
     "Scrolling >4 jam turunkan konsentrasi & daya ingat",
-    "Otak alami cognitive overload — kelebihan beban informasi",
+    "Otak alami cognitive overload - kelebihan beban informasi",
     "Tips: batasi gadget, baca buku, diskusi dengan teman",
   ],
   episodeMeta: {
@@ -95,7 +95,7 @@ export const quizQuestions = [
     id: 1,
     question: "Apa hal pertama yang kamu lakukan setelah bangun tidur?",
     options: [
-      { text: "Langsung cek ponsel — notifikasi lebih penting dari sarapan", score: 0 },
+      { text: "Langsung cek ponsel, notifikasi lebih penting dari sarapan", score: 0 },
       { text: "Scroll sosmed sambil masih di kasur", score: 1 },
       { text: "Sarapan dulu, baru cek ponsel", score: 2 },
       { text: "Beraktivitas dulu, ponsel belakangan", score: 3 },
@@ -106,39 +106,39 @@ export const quizQuestions = [
     question: "Berapa lama rata-rata screen time harianmu?",
     options: [
       { text: "Lebih dari 7 jam", score: 0 },
-      { text: "4-7 jam — masih di zona bahaya", score: 1 },
-      { text: "2-4 jam — cukup terkontrol", score: 2 },
-      { text: "Kurang dari 2 jam — kamu hebat!", score: 3 },
+      { text: "4-7 jam", score: 1 },
+      { text: "2-4 jam", score: 2 },
+      { text: "Kurang dari 2 jam", score: 3 },
     ],
   },
   {
     id: 3,
     question: "Pernah merasa 'brain fog' setelah scroll berjam-jam?",
     options: [
-      { text: "Sering — otak terasa 'nggak karuan'", score: 0 },
-      { text: "Kadang — apalagi abis nonton FYP", score: 1 },
-      { text: "Jarang — masih bisa fokus", score: 2 },
-      { text: "Tidak pernah — screen time-ku sehat", score: 3 },
+      { text: "Sering, otak terasa 'nggak karuan'", score: 0 },
+      { text: "Kadang, apalagi abis nonton FYP", score: 1 },
+      { text: "Jarang, masih bisa fokus", score: 2 },
+      { text: "Tidak pernah, screen time-ku sehat", score: 3 },
     ],
   },
   {
     id: 4,
     question: "Seberapa sering screen time mengganggu tidurmu?",
     options: [
-      { text: "Sering — tidur larut karena 'bentar lagi' scroll", score: 0 },
-      { text: "Kadang — ponsel di samping tempat tidur", score: 1 },
-      { text: "Jarang — matikan ponsel 1 jam sebelum tidur", score: 2 },
-      { text: "Tidak pernah — rutinitas tidurku sehat", score: 3 },
+      { text: "Sering, tidur larut karena 'bentar lagi' scroll", score: 0 },
+      { text: "Kadang, ponsel di samping tempat tidur", score: 1 },
+      { text: "Jarang, matikan ponsel 1 jam sebelum tidur", score: 2 },
+      { text: "Tidak pernah, rutinitas tidurku sehat", score: 3 },
     ],
   },
   {
     id: 5,
     question: "Seberapa sering kamu meluangkan waktu offline?",
     options: [
-      { text: "Hampir tidak pernah — hidupku di dalam layar", score: 0 },
-      { text: "Sekali seminggu — masih kurang", score: 1 },
-      { text: "Beberapa kali seminggu — lumayan aktif", score: 2 },
-      { text: "Setiap hari — hobi di dunia nyata!", score: 3 },
+      { text: "Hampir tidak pernah, hidupku di dalam layar", score: 0 },
+      { text: "Sekali seminggu, masih kurang", score: 1 },
+      { text: "Beberapa kali seminggu, lumayan aktif", score: 2 },
+      { text: "Setiap hari, hobi di dunia nyata!", score: 3 },
     ],
   },
 ];
@@ -176,7 +176,7 @@ export const quizResultLevels = [
     max: 3,
     title: "Sangat Perlu Perubahan",
     description:
-      "Kamu sangat bergantung pada teknologi. Yuk, mulai digital detox sekarang — otakmu butuh istirahat!",
+      "Kamu sangat bergantung pada teknologi. Yuk, mulai digital detox sekarang - otakmu butuh istirahat!",
     color: "text-red-400",
     emoji: "🚨",
   },
